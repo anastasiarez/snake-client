@@ -13,38 +13,25 @@ const connect = function() {
   conn.on("connect", () => {
     console.log("Client successfully connected");
     console.log("Name: RAM");
-
-  //   conn.write("Move: up");
-  //   setTimeout(() => {
-  //     conn.write("Move: down");
-  //   }, 100);
-  //   setTimeout(() => {
-  //     conn.write("Move: left");
-  //   }, 200);
-  //   setTimeout(() => {
-  //     conn.write("Move: right");
-  //   }, 300);
-  //   setTimeout(() => {
-  //     conn.write("Move: up");
-  //   }, 400);
-  // });
+  });
 
   conn.on("data", (data) => {
     console.log("Server says: ", data);
   });
 
   return conn;
-});
+};
 
 console.log("Connecting ...");
-connect();
+const conn = connect(); // Assign the connection object to a variable
 
-module.exports = connect;
+module.exports = conn; // Export the connection object
 
-//REFACTOR
 
-/**
- * conn.on("connect", () => {
+
+  //REFACTOR
+
+/*  conn.on("connect", () => {
     console.log("Client successfully connected");
     console.log("Name: RAM");
     const movements = ["up", "down", "left", "right", "up"];
@@ -57,5 +44,5 @@ module.exports = connect;
       delay += 1000;
     });
   });
-
- */
+};
+*/
