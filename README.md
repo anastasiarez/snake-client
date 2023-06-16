@@ -8,7 +8,7 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-![Screenshot of the game](#/snake-client/Screenshot.jpg)
+![Screenshot of the game](https://github.com/anastasiarez/snake-client/blob/main/Screenshot.jpg)
 
 
 ## Getting Started
