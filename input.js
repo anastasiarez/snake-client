@@ -19,11 +19,11 @@ const handleUserInput = function(data) {
 
   } else if (data === '\u001B\u005B\u0041') { // Arrow Up 
     connection.write("Move: up");
-    connection.write("Say: Faster!");
+    connection.write("Say: Fast!");
 
   } else if (data === '\u001B\u005B\u0044') { // Arrow Left
     connection.write("Move: left");
-    connection.write("Say: Cookies!");
+    connection.write("Say: Cookie!");
 
   } else if (data === '\u001B\u005B\u0043') { // Arrow Right 
     connection.write("Move: right");
