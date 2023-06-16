@@ -17,19 +17,23 @@ const handleUserInput = function(data) {
 
   } else if (data === '\u001B\u005B\u0041') { // Arrow Up
     connection.write("Move: up");
-    console.log('Move Up');
+    connection.write("Say: Faster!");
+    //console.log('Move Up');
 
   } else if (data === '\u001B\u005B\u0044') { // Arrow Left
     connection.write("Move: left");
-    console.log('Move Left');
+    connection.write("Say: Cookies!");
+    //console.log('Move Left');
 
   } else if (data === '\u001B\u005B\u0043') { // Arrow Right 
     connection.write("Move: right");
-    console.log('Move Right');
+    //connection.write("Say: My pressures!");
+    //console.log('Move Right');
 
   } else if (data === '\u001B[B') { // Arrow Down
     connection.write("Move: down");
-    console.log('Move Down');
+    //connection.write("Say: Got it!");
+    //console.log('Move Down');
   }
 };
 
