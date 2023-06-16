@@ -4,20 +4,19 @@
 
 A terminal-based Snake implementation written in JavaScript (Node.js).
 
+Snake game is a very popular video game. It is a video game concept where the player maneuvers a dot and grows it by ‘eating’ pieces of food. As it moves and eats, it grows and the growing snake becomes an obstacle to smooth maneuvers. The goal is to grow it to become as big as possible without bumping into the side walls, or bumping into itself, upon which it dies.
+
 ![snek.gif](https://raw.githubusercontent.com/taniarascia/snek/master/snek.gif)
 
 ![Screenshot of the game](https://github.com/anastasiarez/snake-client/blob/main/Screenshot.jpg)
 
-Snake game is a very popular video game. It is a video game concept where the player maneuvers a dot and grows it by ‘eating’ pieces of food. As it moves and eats, it grows and the growing snake becomes an obstacle to smooth maneuvers. The goal is to grow it to become as big as possible without bumping into the side walls, or bumping into itself, upon which it dies.
-
-This is simply a multiplayer take on the genre.
 
 Before you can run this client, you will need to be running the server side which you can download and install from here:
 
 
-## Installation
+## Installation - Server Side
 
-### Clone from repository - Server Side
+### Clone from repository 
 
 ```bash
 git clone https://github.com/lighthouse-labs/snek-multiplayer.git
@@ -28,10 +27,10 @@ npm install
 npm run play
 ```
 
-
-## Instructions
+## Instructions - Client Side
 
 To play the game, one needs to implement a game client. An example solution code for the client can be [https://github.com/anastasiarez/snake-client].
+
 
 ## Getting Started
 
